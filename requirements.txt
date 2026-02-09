@@ -1,7 +1,16 @@
-notepad requirements.txt
+echo streamlit > requirements.txt
+echo numpy >> requirements.txt
+echo pandas >> requirements.txt
+echo tensorflow >> requirements.txt
+echo scikit-learn >> requirements.txt
+echo matplotlib >> requirements.txt
+echo seaborn >> requirements.txt
 ```
 
-Then add these common dependencies (adjust versions as needed):
+**OR** create it manually:
+
+1. Open Notepad
+2. Type these lines (one per line):
 ```
 streamlit
 numpy
