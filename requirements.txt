@@ -1,1 +1,12 @@
-pip freeze > requirements.txt
+notepad requirements.txt
+```
+
+Then add these common dependencies (adjust versions as needed):
+```
+streamlit
+numpy
+pandas
+tensorflow
+scikit-learn
+matplotlib
+seaborn
